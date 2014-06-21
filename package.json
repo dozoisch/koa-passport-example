@@ -1,0 +1,38 @@
+{
+  "name": "koa-passport-example",
+  "version": "0.0.0",
+  "description": "Example using Koa and Passport, for a more in depth example see https://github/dozoisch/koa-react-full-example",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dozoisch/koa-passport-example"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node --harmony-generators server.js",
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha --harmony --reporter spec ./test/test-*.js"
+  },
+  "author": "Hugo Dozois <hugo@dozoisch.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.11.9"
+  },
+  "dependencies": {
+    "bcrypt": "rvagg/node.bcrypt.js#nan",
+    "co": "3.0.x",
+    "co-views": "0.2.x",
+    "koa": "0.8.x",
+    "koa-bodyparser": "1.0.x",
+    "koa-passport": "0.4.x",
+    "koa-router": "3.1.x",
+    "koa-sess": "0.4.x",
+    "lodash": "2.4.x",
+    "mongoose": "3.9.x",
+    "passport-local": "1.0.x",
+    "whiskers": "0.3.x"
+  },
+  "devDependencies": {
+    "mocha": "1.20.x",
+    "should": "4.0.x",
+    "supertest": "0.13.x"
+  }
+}
