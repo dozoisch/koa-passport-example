@@ -1,6 +1,6 @@
 {
   "name": "koa-passport-example",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Example using Koa and Passport, for a more in depth example see https://github/dozoisch/koa-react-full-example",
   "repository": {
     "type": "git",
